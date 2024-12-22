@@ -30,8 +30,15 @@ public class BasicCore {
         System.out.println("Addition operator----->>>>>"+num1 + num2);
 
         int addInt = num1+5;
+        double pointDiv = (double) 7 /2;
+        double pointmul = (double) 7.5 * 5;
+
+
 
         System.out.println("Addition operator----->>>>>"+addInt );
+        System.out.println("division (/) operator----->>>>>"+pointDiv );
+        System.out.println("multipication (*) operator----->>>>>"+pointmul );
+
 
     }
 }
